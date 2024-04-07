@@ -1,0 +1,279 @@
+.heading {
+    position: relative;
+    width: 100%;
+    height: 300px; /* 画像の高さに合わせて適切な値を設定してください */
+}
+
+.hyousi {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* テキストより背面に配置 */
+}
+
+.kakugenn {
+    position: absolute;
+    top: 50%; /* 上端の位置を調整 */
+    left: 50%; /* 左端の位置を調整 */
+    transform: translate(-50%, -50%); /* テキストを中央に配置 */
+    color: white;
+    font-size: 36px;
+    text-align: center; /* テキストを中央揃え */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* テキストに影を追加 */
+    z-index: 1; /* 画像より前面に配置 */
+}
+
+
+.recruitment {
+    text-align: center; /* 中央揃え */
+    background: linear-gradient(to bottom, #000066, #FFCC00); /* 紺色と青のグラデーションの背景色 */
+    padding: 20px; /* 適切な余白を追加 */
+    border-radius: 10px; /* 角丸にする */
+}
+
+.daimei1 {
+    color: white; /* 白色の文字色 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 影を追加 */
+}
+
+.instagram {
+    display: inline-block; /* インラインブロック要素として表示 */
+    padding: 10px 20px; /* 適切な余白 */
+    background-color: black; /* 黄色の背景色 */
+    color: white; /* 黒色の文字色 */
+    text-decoration: none; /* 下線を除去 */
+    border-radius: 5px; /* 角丸にする */
+}
+
+.instagram:hover {
+    background-color: gray; /* マウスオーバー時の背景色 */
+}
+
+.achievements {
+    
+    text-align: center; /* 中央揃え */
+    margin-top: 50px; /* 上側に50pxの余白を追加 */
+    margin-bottom: 59px; /* 下側に50pxの余白を追加 */
+}
+
+.dendou {
+    font-weight: normal; /* 通常の細い文字にする */
+    text-decoration: underline; /* 下線を追加 */
+    text-align: center; /* 中央揃え */
+    color: #EEFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* テキストに影を追加 */
+}
+
+.comment {
+    text-align: center; /* 中央揃え */
+    line-height: 3; /* 行の高さを1.5倍にする（文字と文字の間に空白ができる） */
+    color: #EEFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* テキストに影を追加 */
+    font-size: 20px;
+}
+
+.daimei {
+    color: black; /* 白色の文字色 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 影を追加 */
+    text-align: center; /* 中央揃え */
+}
+
+.overview{
+    position: relative;
+    width: 100%;
+    height: 500px; /* 画像の高さに合わせて適切な値を設定してください */
+}
+
+.jinbutu {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* テキストより背面に配置 */
+}
+
+.comment2 {
+    position: relative; /* 相対位置指定 */
+    z-index: 1; /* 画像より前面に配置 */
+    padding: 0px; /* 適切な余白を追加 */
+    line-height: 3; /* 行の高さを1.5倍にする（文字と文字の間に空白ができる） */
+    color: white;
+    border: 4px solid black; /* 文字の周囲に2pxの黒い線を追加 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* テキストに影を追加 */
+    font-size: 20px;
+}
+
+.daimei2 {
+    position: relative; /* 相対位置指定 */
+    z-index: 1; /* 画像より前面に配置 */
+    padding: 0px; /* 適切な余白を追加 */
+    line-height: 3; /* 行の高さを1.5倍にする（文字と文字の間に空白ができる） */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* テキストに影を追加 */
+}
+
+
+.schedule {
+    width: 500px; /* ブロックの幅を500pxに固定 */
+    margin: 0 auto; /* 中央揃え */
+    border: 2px solid black; /* 黒い線のボーダーを追加 */
+    border-radius: 10px; /* 角丸にする */
+    padding: 20px; /* 適切な余白を追加 */
+    text-align: center; /* 中央揃え */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 影の追加 */
+    margin-top: 50px; /* 上側に50pxの余白を追加 */
+    margin-bottom: 59px; /* 下側に50pxの余白を追加 */
+}
+
+
+
+.table {
+    /* ここにテーブルのスタイルを追加 */
+}
+
+
+
+
+/*.jisseki{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+    /*z-index: -1; /* テキストより背面に配置 
+/*}*/
+
+
+.daimei3 {
+    padding: 20px; /* 適切な余白を追加 */
+    line-height: 3; /* 行の高さを1.5倍にする（文字と文字の間に空白ができる） */
+    font-size: 40px;
+    margin-left: 20px; /* 右に20pxずらす */
+}
+
+.eikou {
+    display: flex; /* 要素を横並びに配置 */
+    justify-content: center; /* 中央揃え */
+    align-items: center; /* 垂直方向に中央揃え */
+    margin-top: 40px; /* 上側に50pxの余白を追加 */
+    margin-bottom: 40px; /* 下側に50pxの余白を追加 */
+}
+
+.batta {
+    margin-right: 35px; /* 右方向に20px分ずらす */
+    width: 400px; /* 画像の幅を設定 */
+    height: auto; /* 高さを自動調整 */
+    margin-bottom: 60px; /* 下方向に60px分ずらす */
+}
+.pittya {
+    margin-left: 35px; /* 右方向に20px分ずらす */
+    width: 400px; /* 画像の幅を設定 */
+    height: auto; /* 高さを自動調整 */
+    margin-bottom: 60px; /* 下方向に60px分ずらす */
+}
+
+.eikoubun {
+   margin: 0 20px; /* 画像とテキストの間の余白を設定 */
+}
+
+.comment3 {
+    text-align: left; /* テキストを左寄せ */
+    line-height: 1.6; /* 行の高さを設定 */
+    margin-top: 0px; /* 上方向の余白を設定 */
+    margin-bottom: 40px; /* 下方向の余白を設定 */
+    font-size: 25px;
+}
+
+
+.counts {
+    text-align: center; /* テーブルを中央揃え */
+}
+
+.table {
+    display: inline-block; /* テーブルをブロック要素として配置 */
+    border-collapse: collapse; /* テーブルのセル間のボーダーを重ねる */
+}
+
+.table table {
+    width: 100%; /* テーブルの幅を100%に設定 */
+}
+
+.table th, .table td {
+    border: 1px solid #ccc; /* セルにボーダーを追加 */
+    padding: 8px; /* セルの内側の余白を設定 */
+}
+
+.table th {
+    background-color: #f2f2f2; /* テーブルヘッダの背景色 */
+}
+
+.table tr:nth-child(even) {
+    
+}
+
+.table tr:hover {
+    background-color: #FFFFBB	; /* マウスオーバー時の背景色 */
+}
+
+.schedule {
+    text-align: center; /* 中央揃え */
+}
+
+.schedule_daimei {
+    margin-bottom: 20px; /* タイトルとスケジュールの間の余白を追加 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* テキストに影を追加 */
+}
+
+.schedule_hyou {
+    display: inline-block; /* ブロック要素をインラインブロックに変更 */
+    text-align: left; /* 左揃え */
+    font-size: 18px; /* フォントサイズを設定 */
+    line-height: 1.6; /* 行の高さを設定 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* テキストに影を追加 */
+}
+
+.schedule_hyou br {
+    display: none; /* 改行を非表示にする */
+}
+
+.schedule_hyou:before {
+    content: ''; /* 仮想要素の内容を空にする */
+    display: inline-block; /* インラインブロック要素として表示 */
+    border-right: 1px solid #ccc; /* 縦のラインを追加 */
+    margin-right: 10px; /* 右側のマージンを追加 */
+    height: 100%; /* コンテンツの高さに合わせる */
+    vertical-align: top; /* 上揃え */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* テキストに影を追加 */
+}
+
+.place {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.map_daimei {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+    
+}
+
+.map {
+    height: 300px;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.map_comment {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
