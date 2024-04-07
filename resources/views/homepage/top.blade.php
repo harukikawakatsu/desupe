@@ -7,6 +7,12 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <link rel="stylesheet" href="{{ secure_asset('css/top.css?20240406') }}"> <!-- CSSファイルのパスを指定 -->
     <link rel="icon" href="{{ secure_asset('img/ロゴデスペ.png') }}" type="image/x-icon">
+    
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="デスペラードは高崎経済大学の非公認草野球サークルです。高崎経済大学で楽しい野球ライフを送りましょう。">
+    <meta name="keywords" content="デスペラード, 高崎経済大学, 草野球, 野球サークル">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow"> <!-- クローラーにインデックスとフォローを許可 -->
     <!-- Google Mapsのスクリプトを修正 -->
     
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFpv91YFKQTqIsHlVuvzoSmzf1J81DBL4&callback=initMap" async></script>
